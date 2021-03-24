@@ -5,17 +5,6 @@ x+'' 	// => To string
 !!x		// => To boolean (single ! to inverse)
 const nums = readline().split(' ').map(Number);
 
-// Base conversion //
-n.toString(2) 	    // => n to Binary String
-n.toString(16) 	    // => n to Hex String
-parseInt(i, 16)     // => Hex i to Integer
-
-// Format numbers //
-(1234567896).toLocaleString('en')                   // => "1,234,567,896"
-parseFloat('1234567896').toLocaleString('en')       // => "1,234,567,896"
-Math.trunc(13.37)                                   // => 13 (truncate)
-(13.9).toFixed(0)                                   // => 14 (arrondire)
-
 // Miltiple replace
 s.replace(/o|l|z|e|a|s|g|t|b|q/gi, (m) => 'OLZEASGTBQ'.indexOf(m.toUpperCase()))
 
@@ -28,8 +17,7 @@ print(seq.length ? seq.join(' ') : 'None');
 (25+'').split('').forEach((e) => (s += parseInt(e)))            // s=7
 
 // ASCII to Char
-String.fromCharCode(65)     // => A
-"A".charCodeAt(0)           // => 65
+
 
 // Loops
 i = 25; while (i--) {}
