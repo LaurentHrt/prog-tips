@@ -47,7 +47,7 @@ Math.max(...a)                              // => 300
 a.indexOf(Math.max(...a))                   // => 2
 [1, [2]].flat()                             // => [1, 2]
 [1, [2, [3]]].flat(2)                       // => [1, 2]
-let uniqueFruits2 = […new Set(fruits)];     // Remove duplicates
+let uniqueFruits2 = [...new Set(fruits)];     // Remove duplicates
 var sum = nums.reduce((x, y) => x + y);     // Sum
 a.filter((c,i)=>i==s.lastIndexOf(c))        // Remove duplicates keeping the last occurence
 var duplicatedValues = [...new Set(numOne)].filter(item => numTwo.includes(item)); // Intersection of 2 arrays
